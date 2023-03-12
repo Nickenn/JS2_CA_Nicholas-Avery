@@ -30,7 +30,7 @@ export const registerUrl = `${API_BASE_URL}auth/register`;
 
 //  SINGLE POST PROFILE URL
 
-export const singlePostProfile = `${API_BASE_URL}profiles/`;
+export const ProfileURL = `${API_BASE_URL}profiles/`;
 
 //  LOGIN PAGE
 
@@ -48,7 +48,7 @@ export const loginUrl = `${API_BASE_URL}auth/login`;
 
 export const params = new URLSearchParams(window.location.search);
 
-export const postsIdUrl = `${API_BASE_URL}posts/${postID}?_author=true`;
+//export const postsIdUrl = `${API_BASE_URL}posts/${postID}?_author=true`;
 export const postsId = params.get("postsId");
 export const paramsFilter = params.get("filter");
 export const profileParams = params.get("user");
